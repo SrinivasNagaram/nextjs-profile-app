@@ -16,7 +16,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Srinivas Nagaram | Front End Developer | ReactJS",
   description:
-    "Srinvias Nagaram is a Front End Developer and have vast experience in ReactJS, NextJS, TypeScript, Javascript.",
+    "Srinvias Nagaram is a Front End Developer and have vast experience in ReactJS, NextJS, TypeScript, Javascript, HTML5 and CSS3.",
 };
 
 export default function RootLayout({
