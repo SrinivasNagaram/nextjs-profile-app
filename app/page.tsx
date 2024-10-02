@@ -5,11 +5,18 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold pb-3">Srinivas Nagaram</h1>
         <h2 className="pb-3 text-xl font-thin">Sr. Software Engineer</h2>
       </header>
-      <main className="flex flex-col gap-8 row-start-2 sm:items-start text-center">
+      <main className="flex flex-col gap-8 row-start-2 text-center">
+        <div className="flex flex-col text-center">
+          <h3 className="text-xl">Apps</h3>
+          <p className="text-xs">Coming soon...</p>
+        </div>
         <ul>
+          <li>
+            <h3 className="font-normal text-xs">Stay connected:</h3>
+          </li>
           <li className="pb-1">
             <a
-              className="text-sm underline text-indigo-600"
+              className="text-xs underline text-indigo-600"
               href="https://www.linkedin.com/in/srinivasnagaram/"
               target="_blank"
               rel="noopener noreferrer"
@@ -19,7 +26,7 @@ export default function Home() {
           </li>
           <li className="pb-1">
             <a
-              className="text-sm underline text-indigo-600"
+              className="text-xs underline text-indigo-600"
               href="https://github.com/SrinivasNagaram"
               target="_blank"
               rel="noopener noreferrer"
@@ -29,7 +36,7 @@ export default function Home() {
           </li>
           <li className="pb-1">
             <a
-              className="text-sm underline text-indigo-600"
+              className="text-xs underline text-indigo-600"
               href="https://x.com/SrinivasNagaram"
               target="_blank"
               rel="noopener noreferrer"
@@ -39,7 +46,7 @@ export default function Home() {
           </li>
           <li className="pb-1">
             <a
-              className="text-sm underline text-indigo-600"
+              className="text-xs underline text-indigo-600"
               href="https://www.instagram.com/srinivas.nagaram/"
               target="_blank"
               rel="noopener noreferrer"
@@ -50,7 +57,7 @@ export default function Home() {
         </ul>
       </main>
       <footer className="row-start-3 flex flex-wrap items-center justify-left">
-        <p className="font-thin text-sm">
+        <p className="font-thin text-xs">
           © 2024 SrinivasNagaram. All rights reserved.
         </p>
       </footer>
